@@ -1,0 +1,23 @@
+.UploadedFile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FileComp {
+    display: flex;
+    align-items: center;
+}
+
+.FileComp > p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F282D;
+}
+
+.FileSize {
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 500;
+}

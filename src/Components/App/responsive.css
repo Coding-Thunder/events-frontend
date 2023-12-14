@@ -1,0 +1,66 @@
+@media only screen and (max-width: 400px) {
+  * {
+    padding: 0;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .CreateEvent {
+    width: 100vw;
+  }
+  /* .Avatar > img {
+    width: 20px;
+    height: 20px;
+  } */
+  .Avatar__Group  {
+    padding: 15px;
+    overflow: scroll;
+  }
+  .Responsive__Input--1 {
+    width: 60vw !important;
+  }
+  .Responsive__Input--2 {
+    width: 56.5vw !important;
+  }
+  .Responsive__Input--3 {
+    width: 78vw !important;
+  }
+  .ButtonInput > button {
+    padding: 14px 10px;
+  }
+  .Notification>button {
+    padding: 14px 10px;
+  }
+  .Below__Avatar {
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .Form__Label {
+    padding: 5px;
+  }
+  .UploadedFile{
+    padding: 5px;
+  }
+  .FileComp {
+    gap: 10px;
+  }
+  .FileSize {
+    padding: 5px;
+  }
+  .SaveEventSection {
+    padding: 20px 15px;
+  }
+  .Datepicker__Comp {
+    width: 30vw;
+  }
+  .ImageCross {
+    padding: 5px;
+    top: -2px;
+  }
+  .Avatar__Group {
+    gap: 10px;
+  }
+  .Cancel {
+    padding: 10px;
+  }
+  }

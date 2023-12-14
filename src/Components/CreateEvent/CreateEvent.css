@@ -1,0 +1,149 @@
+.CreateEvent {
+    width: 40vw;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+}
+
+.AddDescription {
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+
+.AddDescription>input {
+    padding: 10px;
+    width: 80%;
+}
+
+.AddDescription>button {
+    width: fit-content;
+    padding: 6px 14px;
+    border: none;
+    background-color: white;
+    border-radius: 6PX;
+    border: 1px solid white;
+}
+
+.Date__Time_Duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DatePicker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+    border-radius: 6px;
+}
+
+.Datepicker__Comp {
+    background-color: whitesmoke;
+    border: none;
+}
+
+.Descrption {
+    color: gray;
+}
+
+
+.Avatar__Group {
+    display: flex;
+    align-items: center;
+}
+
+.Plus__Three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-weight: 500;
+    padding: 22px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.Below__Avatar {
+    display: flex;
+}
+
+.Notification {
+    background: whitesmoke;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.Notification>button {
+    border: none;
+    outline: none;
+    padding: 14px 10px;
+    border-radius: 6px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+
+}
+
+
+:where(.css-dev-only-do-not-override-p7e5j5).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent;
+    border: none;
+}
+
+
+.Set__Reminder {
+    background: whitesmoke;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.File__Area {
+    padding: 10px 20px;
+    border-bottom: 1px solid grey;
+}
+
+.Select__File {
+    border: none;
+    outline: none;
+    padding: 14px 10px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.File__Section {
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+.SaveEventSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.CancelButton {
+    padding: 14px 16px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+
+.CreateButton {
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
